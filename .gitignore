@@ -1,0 +1,93 @@
+# Build folders
+bin/
+obj/
+out/
+
+# Rider project files
+.idea/
+*.sln.iml
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code folders
+.vscode/
+
+# ASP.NET Core secrets
+**/secrets.json
+
+# ASP.NET Core environment-specific settings
+appsettings.*.json
+
+# Logs
+*.log
+logs/
+*.nlog
+
+# Publish output
+publish/
+wwwroot/dist/
+wwwroot/build/
+
+# DotCover
+*.dotCover
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.orig
+*.rej
+*.pid
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Rider Local History
+.idea/.idea.LocalHistory/
+
+# JetBrains Rider Cache
+.idea/.idea_modules/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+
+# Mac/Linux system files
+.DS_Store
+*.swp
+*.swo
+Thumbs.db
+
+# Test result files
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Entity Framework
+Migrations/
+
+# Environment
+.env
+.env.*
+
+# Node / npm (if used with frontend)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Exclude docker-compose override if personal
+docker-compose.override.yml
