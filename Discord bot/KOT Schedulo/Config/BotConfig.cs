@@ -1,4 +1,4 @@
-﻿namespace KOT_Schedulo;
+﻿namespace KOT_Schedulo.Config;
 
 public class BotConfig
 {
